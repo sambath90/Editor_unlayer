@@ -14,7 +14,7 @@ class App extends Component {
 
     return (
       <EmailEditor
-        projectId={167}
+        projectId={33005}
         options={{
           customJS: [
             'https://devapp.trackfiliates.com/unlayer/custom.js',
