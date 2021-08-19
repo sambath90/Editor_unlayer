@@ -10,10 +10,11 @@ class App extends Component {
     .createHmac("sha256", "1qTCAXQ9oEJHYrlJkHYQXFsiLBwDIxaTg99zJ29SbijtwUvygpZAbClzuyyCmnMp") // secret key (keep safe!)
     .update("655CAA60-7EFE-410C-B13A-0323682F031A")
     .digest("hex");
+    console.log(signature, window.location.protocol + '//' + window.location.host + '/custom.js');
 
     return (
       <EmailEditor
-        projectId={33005}
+        projectId={167}
         options={{
           customJS: [
             window.location.protocol + '//' + window.location.host + '/custom.js',
