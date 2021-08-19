@@ -17,7 +17,7 @@ class App extends Component {
         projectId={167}
         options={{
           customJS: [
-            window.location.protocol + '//' + window.location.host + '/custom.js',
+            'https://devapp.trackfiliates.com/unlayer/custom.js',
           ],
           user: {
             id: "655CAA60-7EFE-410C-B13A-0323682F031A",
