@@ -56,7 +56,7 @@ class App extends Component {
 
     return (
       <EmailEditor
-        projectId={167}
+        projectId={33005}
         options={{
           customJS: [
             window.location.protocol + '//' + window.location.host + '/custom.js',
